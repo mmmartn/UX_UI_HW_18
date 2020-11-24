@@ -1,0 +1,121 @@
+stop*, *:before, *:after {
+    border: 1px solid red;
+    }
+
+* {
+    font-family: Futura, sans-serif;
+}
+
+body {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logo {
+    width: 22%;
+    padding: 1%;
+    text-align: center;
+    float: right;
+}
+
+nav {
+    width: 73%;
+
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.navbar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    font-size: 80pt;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+    display: inline-block;
+    width: auto;
+}
+
+#infome {
+    width: auto;
+
+}
+
+#knowme {
+    margin-top: auto;
+
+}
+
+#heroImg {
+    width: 88%;
+    height: auto;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 650px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+
+
+#bottom {
+    width: 88%;
+
+    display: inline-block;
+    margin: 1%;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+.workimg {
+    text-align: center;
+}
+
+#card {
+    width: 45%;
+
+}
+
+#infowork {
+    float: right;
+    padding: auto;
+    position: relative;
+    right: 130px;
+}
+
+
+
+footer {
+    background-color: #ffffff;
+}
+
+#icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
