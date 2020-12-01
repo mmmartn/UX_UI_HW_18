@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html>
-     <head>
-        <link href="css/style.css" type="text/css" rel="stylesheet">
-        <title>Martin Carpio</title>
-    </head>
-    <body>
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap" rel="stylesheet">
+    <title>Martin Carpio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="inline-block">
+        <ul class="navigation">
+          <li class="inline-block navbar menu"><button>Menu</button></li>
+          <li class="inline-block navbar hideButton">Home</li>
+          <li class="inline-block navbar hideButton">Work</li>
+          <li class="inline-block navbar hideButton">About</li>
+        </ul>
+      </nav>
+    </header>
 
-        <header class="navigation">
+    <section id="heroImg">
+      <div class="parentContainer">
+        <h1 class="title">
+          Hello!<br />I'm <span id="nameHeader">Martin</span>.
+        </h1>
+        <div class="info flexChild">
+          <p id="infome">
+            I’m a freelance UX/UI designer passionate about <br />understanding
+            others through good design, always <br />looking to solve problems
+            with a fresh perspective.
+          </p>
+          <button id="knowme">Get to know me!</button>
+        </div>
+      </div>
+    </section>
 
-            <nav class="inline-block">
-            <ul>
-                <li class="inline-block menu"><button>Menu</button></li>
-                <li class="inline-block navbar">Home</li>
-                <li class="inline-block navbar">Work</li>
-                <li class="inline-block navbar">About</li>
-            </ul>
-            </nav>
-        </header>
+    <section id="bottom">
+      <div class="workimg">
+        <img class= "card" id="card1" src="images/coral-card.png" />
+        <img class= "card" id="card2" src="images/mhm-card.png" />
+      </div>
+      <div class="workbutton">
+        <button id="infowork">Check out more work!</button>
+      </div>
+    </section>
 
-        <section id="heroImg">
-            <div class="content">
-            <h1 class="title">Hello!<br>I'm Martin.</h1>
-            <div class="info">
-                <p id="infome">I’m a freelance UX/UI designer passionate about<br>understanding others through good design, always<br>looking to solve problems with a fresh perspective.</p>
-                <button id="knowme">Get to know me!</button>
-            </div>
-            </div>
-        </section>
-        
-        <section id=bottom>
-            <div class="workimg">
-                <img id="card" src="images/coral-card.png">
-                <img id="card" src="images/mhm-card.png">
-            </div>
-            <button id="infowork">Check out more work!</button>
-        </section>
-
-        <footer>
-            <ul>
-            <li class="inline-block"><img src="images/linkedin-icon.png" id="icon"></li>
-            <li class="inline-block"><img src="images/fb-icon.png" id="icon"></li>
-            <li class="inline-block"><img src="images/ig-icon.png" id="icon"></li>
-            <li class="inline-block"><img src="images/mail-icon.png" id="icon"></li>
-            </ul>
-        </footer>
-
-        
-    </body>
+    <footer>
+      <div class="parentFooter">
+        <img src="images/linkedin-icon.png" id="icon" />
+        <img src="images/fb-icon.png" id="icon" />
+        <img src="images/ig-icon.png" id="icon" />
+        <img src="images/mail-icon.png" id="icon" />
+      </div>
+    </footer>
+  </body>
 </html>
